@@ -1,0 +1,64 @@
+table{
+	border-collapse: collapse;
+	vertical-align:  center;
+	width: 100%;
+}
+
+th{
+	text-align: left;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+tr{
+	border-bottom: gray solid 1px;
+	height: 70px;
+}
+
+td{
+	font-family: 'Baloo Chettan 2', cursive;
+	width: 100px;
+}
+
+a{
+	border: 1px solid white; 
+    display: inline-block;
+    padding: 5px 15px; 
+    text-decoration: none; 
+    background: #007AFF;
+    color: white;
+	font-family: 'Baloo Chettan 2', cursive;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.edit{
+	width: 60px;
+}
+
+.delete{
+	width: 80px;
+}
+
+.container{
+	display: flex;
+	padding-top: 20px;
+}
+
+p{
+	margin: 0;
+	margin-left: 5px;
+}
+
+.TextInput{
+	height: 10px;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+
+.AddBook{
+	margin-left: 15px;
+	margin-top: -6px;
+	width: 110px;
+}
+
